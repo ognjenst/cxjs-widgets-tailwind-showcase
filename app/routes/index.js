@@ -25,6 +25,18 @@ export default () => (
             <SandboxedRoute route="~/dashboard">
                <Dashboard />
             </SandboxedRoute>
+
+            <Route route="~/mask-field" url-bind="url" prefix>
+               <PageNotImplemented />
+            </Route>
+
+            <Route route="~/markdown" url-bind="url" prefix>
+               <PageNotImplemented />
+            </Route>
+
+            <Route route="~/codemirror" url-bind="url" prefix>
+               <PageNotImplemented />
+            </Route>
             <Route route="~/customers" url-bind="url" prefix>
                <PageNotImplemented />
             </Route>
@@ -53,6 +65,6 @@ export default () => (
          params={1}
          onResolve={() => import(/* webpackChunkName: "overlays" */ '../overlays').then((x) => x.default)}
       />
-      <DocumentTitle append text="Demo App" separator=" | " />
+      <DocumentTitle append text="CxJs Showcase" separator=" | " />
    </cx>
 );

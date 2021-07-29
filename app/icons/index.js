@@ -17,6 +17,7 @@ import {
    DocumentTextIcon,
    ExclamationIcon,
    InformationCircleIcon,
+   PencilAltIcon,
    PencilIcon,
    PlusIcon,
    PresentationChartBarIcon,
@@ -99,3 +100,6 @@ Icon.register('printer', (props) => <PrinterIcon {...props} />);
 Icon.register('pencil', (props) => <PencilIcon {...props} />);
 
 Icon.register('view-grid-add', (props) => <ViewGridAddIcon {...props} />);
+
+Icon.register('pencil', (props) => <PencilAltIcon {...props} />);
+

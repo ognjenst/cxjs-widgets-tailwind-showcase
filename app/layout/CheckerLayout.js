@@ -191,15 +191,13 @@ export const CheckerLayout = ({ children, nav }) => (
          <div class="border-r pt-3">
             <div class="px-6 py-3 text-gray-400 text-sm">Main Menu</div>
             <NavItem text="Dashboard" icon="chart-bar" href="~/dashboard" />
-            <NavItem text="Invoices" icon="document-text" href="~/invoices" />
-            <NavItem text="Customers" icon="users" href="~/customers" />
-
-            <div class="mt-4 px-6 py-3 text-gray-400 text-sm">Administration</div>
-            <NavItem text="Settings" icon="cog" href="~/settings" />
-            <NavItem text="User Accounts" icon="user-group" href="~/users" />
+            <div class="px-6 py-3 text-gray-400 text-sm">Text components</div>
+            <NavItem text="Mask Input Field" icon="pencil" href="~/mask-field" />
+            <NavItem text="Markdown" icon="pencil" href="~/markdown" />
+            <NavItem text="Codemirror" icon="pencil" href="~/codemirror" />
 
             <div class="mt-4 px-6 py-3 text-gray-400 text-sm">Misc</div>
-
+            <NavItem text="Invoices" icon="document-text" href="~/invoices" />
             <GroupItem text="Pages" icon="document-report" expanded-bind="nav.expand.pages">
                <ChildItem text="Sign In" href="~/pages/sign-in" />
                <ChildItem text="Password Recovery" href="~/pages/password-recovery" />

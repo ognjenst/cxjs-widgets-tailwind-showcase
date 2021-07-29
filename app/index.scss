@@ -117,8 +117,8 @@ $cx-std-field-state-style-map: cx-deep-map-merge(
          color: inherit,
       ),
       focus: (
-         border-color: rgb(77, 144, 254),
-         box-shadow: 0 0 0 1px rgba(77, 144, 254, 0.8),
+         border-color: red,
+         box-shadow: 0 0 0 1px rgba(254, 77, 77, 0.8),
       ),
       error: (
          border-color: #dc2626,

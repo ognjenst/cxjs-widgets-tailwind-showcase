@@ -119,7 +119,7 @@ export const CheckerLayout = ({ children, nav }) => (
                      }}
                   >
                      <div class="flex p-2 items-center">
-                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-500">
+                        <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-500">
                            <Icon
                               name={computable('$record.type', (type) => {
                                  switch (type) {

@@ -28,6 +28,7 @@ import {
    UserGroupIcon,
    UserIcon,
    UsersIcon,
+   ViewGridAddIcon,
    ViewListIcon,
    XIcon,
 } from '@heroicons/react/outline';
@@ -96,3 +97,5 @@ Icon.register('arrow-left', (props) => <ArrowLeftIcon {...props} />);
 Icon.register('printer', (props) => <PrinterIcon {...props} />);
 
 Icon.register('pencil', (props) => <PencilIcon {...props} />);
+
+Icon.register('view-grid-add', (props) => <ViewGridAddIcon {...props} />);

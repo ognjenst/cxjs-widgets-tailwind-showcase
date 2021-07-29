@@ -193,11 +193,11 @@ export const CheckerLayout = ({ children, nav }) => (
             <NavItem text="Dashboard" icon="chart-bar" href="~/dashboard" />
             <div class="px-6 py-3 text-gray-400 text-sm">Text components</div>
             <NavItem text="Mask Input Field" icon="pencil" href="~/mask-field" />
-            <NavItem text="Markdown" icon="pencil" href="~/markdown" />
-            <NavItem text="Codemirror" icon="pencil" href="~/codemirror" />
+            <NavItem text="Markdown" icon="hashtag" href="~/markdown" />
+            <NavItem text="Codemirror" icon="code" href="~/codemirror" />
 
             <div class="mt-4 px-6 py-3 text-gray-400 text-sm">Misc</div>
-            <NavItem text="Invoices" icon="document-text" href="~/invoices" />
+            {/* <NavItem text="Invoices" icon="document-text" href="~/invoices" />
             <GroupItem text="Pages" icon="document-report" expanded-bind="nav.expand.pages">
                <ChildItem text="Sign In" href="~/pages/sign-in" />
                <ChildItem text="Password Recovery" href="~/pages/password-recovery" />
@@ -205,7 +205,7 @@ export const CheckerLayout = ({ children, nav }) => (
             <GroupItem text="Widgets" icon="puzzle" expanded-bind="nav.expand.widgets">
                <ChildItem text="Buttons" href="~/widgets/buttons" />
                <ChildItem text="Form Fields" href="~/widgets/form-fields" />
-            </GroupItem>
+            </GroupItem> */}
             <NavItem text="About" icon="information-circle" href="~/about" />
          </div>
          {children}

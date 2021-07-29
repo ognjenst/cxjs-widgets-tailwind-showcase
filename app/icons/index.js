@@ -9,6 +9,7 @@ import {
    CashIcon,
    ChartBarIcon,
    ChevronDownIcon,
+   CodeIcon,
    CogIcon,
    CreditCardIcon,
    CurrencyDollarIcon,
@@ -16,6 +17,7 @@ import {
    DocumentReportIcon,
    DocumentTextIcon,
    ExclamationIcon,
+   HashtagIcon,
    InformationCircleIcon,
    PencilAltIcon,
    PencilIcon,
@@ -103,3 +105,6 @@ Icon.register('view-grid-add', (props) => <ViewGridAddIcon {...props} />);
 
 Icon.register('pencil', (props) => <PencilAltIcon {...props} />);
 
+Icon.register('code', (props) => <CodeIcon {...props} />);
+
+Icon.register('hashtag', (props) => <HashtagIcon {...props} />);

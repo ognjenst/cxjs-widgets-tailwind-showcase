@@ -9,6 +9,7 @@ import SignIn from './pages/sign-in';
 import { SandboxedRoute } from '../components/SandboxedRoute';
 import InvoiceRoutes from './invoices';
 import { PageNotImplemented } from '../components/PageNotImplemented';
+import MaskField from './mask-field';
 
 export default () => (
    <cx>
@@ -27,7 +28,7 @@ export default () => (
             </SandboxedRoute>
 
             <Route route="~/mask-field" url-bind="url" prefix>
-               <PageNotImplemented />
+               <MaskField />
             </Route>
 
             <Route route="~/markdown" url-bind="url" prefix>

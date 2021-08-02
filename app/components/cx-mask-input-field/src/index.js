@@ -22,7 +22,7 @@ export default class MaskInputField extends Field {
       if (!data.error && data.value) {
          if (this.validationRegExp) this.validationRegExp.lastIndex = 0;
          if (this.validationRegExp && !this.validationRegExp.test(data.value)) data.error = this.validationErrorText;
-         else if (data.value.includes('_')) data.error = this.validationErrorText;
+         else if (data.value.includes(data.maskPlaceholder)) data.error = this.validationErrorText;
       }
    }
    renderInput(context, instance, key) {
@@ -55,6 +55,7 @@ export default class MaskInputField extends Field {
                // className={CSS.element(baseClass, "input")}
                value={instance.data.value || ''}
                mask={instance.data.mask}
+               maskChar={this.maskPlaceholder}
                onChange={(e) => this.onChange(e, instance)}
                alwaysShowMask={this.alwaysShowMask}
                onBlur={() => {

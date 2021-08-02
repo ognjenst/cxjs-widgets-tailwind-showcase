@@ -14,7 +14,7 @@ export default (
                elements into higher-order visual structures - toolbars, sections, layouts, pages, etc.
             </p>
             <Section>
-               <MaskInputField value-bind="data" mask="99.99.99.99" />
+               <MaskInputField value-bind="data" mask="99.99.99.99" maskPlaceholder="_" />
             </Section>
          </div>
       </div>

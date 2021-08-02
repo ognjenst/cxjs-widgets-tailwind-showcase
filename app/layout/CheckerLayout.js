@@ -21,7 +21,7 @@ const NavItem = ({ text, href, tooltip, onClick, className, icon, badge, expande
          url-bind="url"
          class="hover:bg-gray-100 flex items-center px-3 py-3 text-gray-800 relative font-semibold whitespace-nowrap text-opacity-70 text-[15px] border-l-[3px] border-transparent cursor-pointer"
          className={className}
-         activeClass="!bg-red-100 !border-red-500 !text-red-500 !opacity-100"
+         activeClass="!bg-purple-100 !border-purple-500 !text-purple-500 !opacity-100"
          tooltip={tooltip}
          onClick={onClick}
          match="subroute"
@@ -119,7 +119,7 @@ export const CheckerLayout = ({ children, nav }) => (
                      }}
                   >
                      <div class="flex p-2 items-center">
-                        <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-500">
+                        <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-500">
                            <Icon
                               name={computable('$record.type', (type) => {
                                  switch (type) {

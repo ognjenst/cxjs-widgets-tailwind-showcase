@@ -10,6 +10,10 @@ module.exports = async () => {
       mode: 'development',
 
       plugins: [new webpack.HotModuleReplacementPlugin()],
+      snapshot: {
+         managedPaths: ['/node_modules'],
+         immutablePaths: ['/node_modules'],
+      },
 
       devtool: 'eval',
 

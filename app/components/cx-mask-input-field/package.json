@@ -9,12 +9,18 @@
    "license": "MIT",
    "keywords": [
       "input",
-      "maks",
+      "mask",
       "cx",
       "field",
       "text"
    ],
    "files": [
       "src"
-   ]
+   ],
+   "peerDependencies": {
+      "cx": "^1.0.0"
+   },
+   "dependencies": {
+      "react-input-mask": "^2.0.4"
+   }
 }

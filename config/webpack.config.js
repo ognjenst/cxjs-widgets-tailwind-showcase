@@ -30,7 +30,7 @@ module.exports = ({ rootCssLoader, tailwindOptions }) => {
                   p('common'),
                   p('app'),
                   /packages[\\\/]cx/,
-                  /node_modules[\\\/](cx|cx-react|cx-theme-\w*|cx-google-maps)[\\\/]/,
+                  /node_modules[\\\/](cx|cx-react|cx-theme-\w*|cx-google-maps|cx-mask-input-field)[\\\/]/,
                ],
                use: { loader: 'babel-loader', options: babelCfg },
             },

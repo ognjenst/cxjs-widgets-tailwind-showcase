@@ -1,5 +1,5 @@
 import { Section, TextField } from 'cx/widgets';
-import MaskInputField from '../../components/cx-mask-input-field/src';
+import MaskInputField from 'cx-mask-input-field';
 
 export default (
    <cx>

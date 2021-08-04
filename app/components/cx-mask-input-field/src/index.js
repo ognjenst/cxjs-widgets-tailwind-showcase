@@ -11,6 +11,7 @@ export default class MaskInputField extends Field {
          value: undefined,
          mask: undefined,
          required: undefined,
+         maskPlaceholder: '_',
       });
    }
 

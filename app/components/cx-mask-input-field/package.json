@@ -1,6 +1,6 @@
 {
    "name": "cx-mask-input-field",
-   "version": "1.0.0",
+   "version": "0.9.2",
    "description": "Mask input field wrapped in cx component.",
    "main": "./src/index.js",
    "author": "Ognjen Stefanovic",
@@ -15,11 +15,8 @@
    "files": [
       "src"
    ],
-   "peerDependencies": {
-      "cx": "^1.0.0"
-   },
    "dependencies": {
-      "react-input-mask": "^2.0.4"
+      "react-input-mask": "2.0.4"
    },
    "homepage": "https://github.com/ognjenst/cxjs-widgets-tailwind-showcase/tree/master/app/components/cx-mask-input-field#readme",
    "repository": {

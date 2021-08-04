@@ -1,6 +1,6 @@
 # CxJS Mask Input Field
 
-#### Chout out out [Demo](https://angry-kirch-e6040c.netlify.app/dashboard)
+<!-- #### Chout out out [Demo](https://angry-kirch-e6040c.netlify.app/dashboard) -->
 
 Text Field component that allows you to add a custom mask on it. **_You need to bind the value to the store!_**
 

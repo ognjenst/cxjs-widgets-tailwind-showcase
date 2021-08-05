@@ -35,7 +35,23 @@ export default class MaskInputField extends Field {
 
       let help = this.helpPlacement && getContent(this.renderHelp(context, instance, 'help'));
 
-      // let help = data.error;
+      // TODO: Change this to something intuitive
+      let charSet = {
+         // Numbers
+         9: '[0-9]',
+
+         // All characters
+         a: '[A-Za-z]',
+
+         //All lowercase characters
+         s: '[a-z]',
+
+         // All uppercase characters
+         C: '[A-Z]',
+
+         // Everything
+         '*': '[A-Za-z0-9]',
+      };
       return (
          <div
             key={key}
@@ -57,6 +73,7 @@ export default class MaskInputField extends Field {
                value={instance.data.value || ''}
                mask={instance.data.mask}
                maskChar={this.maskPlaceholder}
+               placeholder={this.placeholder}
                onChange={(e) => this.onChange(e, instance)}
                alwaysShowMask={this.alwaysShowMask}
                onBlur={() => {
@@ -64,6 +81,7 @@ export default class MaskInputField extends Field {
                }}
                onMouseMove={(e) => tooltipMouseMove(e, ...getFieldTooltip(instance))}
                onMouseLeave={(e) => tooltipMouseLeave(e, ...getFieldTooltip(instance))}
+               formatChars={charSet}
             />
             {label}
             {help}

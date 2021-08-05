@@ -14,7 +14,13 @@ export default (
                not yet supported.
             </p>
             <div class="mt-5" layout={LabelsLeftLayout}>
-               <MaskInputField label="IP Address" value-bind="data" mask="999.999.999.999" placeholder="192.168.1.1" />
+               <MaskInputField
+                  label="IP Address"
+                  value-bind="data"
+                  maskPlaceholder="-"
+                  mask="+4\\9 999 999 999"
+                  alwaysShowMask
+               />
             </div>
          </div>
       </div>

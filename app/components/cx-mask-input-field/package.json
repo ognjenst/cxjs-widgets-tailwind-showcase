@@ -1,5 +1,5 @@
 {
-   "name": "cx-mask-input-field",
+   "name": "@cx-widgets/mask-input-field",
    "version": "0.9.2",
    "description": "Mask input field wrapped in cx component.",
    "main": "./src/index.js",

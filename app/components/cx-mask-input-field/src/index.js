@@ -35,6 +35,7 @@ export default class MaskInputField extends Field {
 
       let help = this.helpPlacement && getContent(this.renderHelp(context, instance, 'help'));
 
+      // TODO: Change this to something intuitive
       let charSet = {
          // Numbers
          9: '[0-9]',
@@ -51,8 +52,6 @@ export default class MaskInputField extends Field {
          // Everything
          '*': '[A-Za-z0-9]',
       };
-
-      // let help = data.error;
       return (
          <div
             key={key}

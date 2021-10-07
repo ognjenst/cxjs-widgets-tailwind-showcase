@@ -1,6 +1,6 @@
 import { Section, TextField } from 'cx/widgets';
 import { LabelsLeftLayout } from 'cx/src/ui';
-import MaskInputField from '../../components/cx-mask-input-field';
+import MaskInputField from 'cx-mask-input-field';
 
 export default (
    <cx>

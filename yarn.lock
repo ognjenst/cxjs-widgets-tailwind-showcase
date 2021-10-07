@@ -2765,10 +2765,10 @@ csso@^4.2.0:
   dependencies:
     css-tree "^1.1.2"
 
-cx-mask-input-field@^0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/cx-mask-input-field/-/cx-mask-input-field-0.9.2.tgz#a06db9534ff05558dd59a3727f33e2bdea53aba7"
-  integrity sha512-GPFdLm0pM9FFbhlvDBNu/qxNHdUSvF9cSs0D0MSRn8fRzfqhZ9OrnVcuXgDYUnGwDN3YeRerT6BA8TwvHprFfw==
+cx-mask-input-field@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/cx-mask-input-field/-/cx-mask-input-field-0.9.4.tgz#b67221d3e23014faf593fc51090e69740339955f"
+  integrity sha512-BfO+7XE7hZDI3SZFMfZnFVhK37H/3V6aVyJVu8B0I7UUxSIqmpiV85ZAyQTqXny9Ubt85TlkVYJecmwIdRXPtg==
   dependencies:
     react-input-mask "2.0.4"
 

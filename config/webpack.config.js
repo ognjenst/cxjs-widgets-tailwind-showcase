@@ -26,12 +26,7 @@ module.exports = ({ rootCssLoader, tailwindOptions }) => {
             {
                test: /\.js$/,
                //add here any ES6 based library
-               include: [
-                  p('common'),
-                  p('app'),
-                  /packages[\\\/]cx/,
-                  /node_modules[\\\/](cx|cx-react|cx-theme-\w*|cx-google-maps|cx-mask-input-field)[\\\/]/,
-               ],
+               include: [p('common'), p('app'), /packages[\\\/]cx/, /node_modules[\\\/](cx|cx-.+)[\\\/]/],
                use: { loader: 'babel-loader', options: babelCfg },
             },
             {

@@ -1,7 +1,7 @@
 {
   "name": "cxjs-tailwind-template",
   "version": "1.0.0",
-  "description": "A sample application demoing integration of CxJS and Tailwind CSS.",
+  "description": "CxJS additional libraries and components.",
   "main": "index.js",
   "private": true,
   "scripts": {

@@ -1,4 +1,3 @@
-import { History } from 'cx/ui';
 import { GET } from '../api/util/methods';
 
 export default {
@@ -28,11 +27,5 @@ export default {
                 }))
             ]);
         });
-    },
-
-    async onSignOut() {
-        //window.location = "/sign-out";
-        this.store.set('user', null);
-        History.pushState({}, null, '~/');
-    },
+    }
 };

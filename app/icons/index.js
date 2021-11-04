@@ -34,6 +34,7 @@ import {
    ViewGridAddIcon,
    ViewListIcon,
    XIcon,
+   HomeIcon
 } from '@heroicons/react/outline';
 
 //register all icons that are used within the application
@@ -108,3 +109,5 @@ Icon.register('pencil', (props) => <PencilAltIcon {...props} />);
 Icon.register('code', (props) => <CodeIcon {...props} />);
 
 Icon.register('hashtag', (props) => <HashtagIcon {...props} />);
+
+Icon.register('home', (props) => <HomeIcon {...props} />);

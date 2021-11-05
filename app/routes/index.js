@@ -5,6 +5,7 @@ import { CheckerLayout } from '../layout/CheckerLayout';
 import { SandboxedRoute } from '../components/SandboxedRoute';
 import { PageNotImplemented } from '../components/PageNotImplemented';
 import MaskField from './mask-field';
+import MarkDown from './markdown';
 
 export default () => (
    <cx>
@@ -21,7 +22,7 @@ export default () => (
             </Route>
 
             <Route route="~/markdown" url-bind="url" prefix>
-               <PageNotImplemented />
+               <MarkDown />
             </Route>
 
             <Route route="~/codemirror" url-bind="url" prefix>

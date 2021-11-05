@@ -1,10 +1,6 @@
 import { LabelsLeftLayout } from 'cx/src/ui';
 import MaskInputField from 'cx-mask-input-field';
-
-const pillStyle = 'w-64 py-1 px-2 rounded text-md bg-gray-200 text-gray-700 text-center mb-3';
-const textStyle = 'text-md text-gray-700 mb-3';
-const mainTitleStyle = 'text-5xl font-bold';
-const subTitleStyle = 'mt-12 pb-3 mb-3 text-2xl font-bold border-b-2';
+import { pillStyle, textStyle, mainTitleStyle, subTitleStyle } from '../../common/styleClasses'
 
 export default (
    <cx>

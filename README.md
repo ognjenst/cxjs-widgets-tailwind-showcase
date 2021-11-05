@@ -4,7 +4,7 @@ Here you can find additional libraries and components for CxJS framework. Most o
 
 You can find:
 
--  [Mask Text Field](https://github.com/ognjenst/cxjs-widgets-tailwind-showcase/tree/master/app/components/cx-mask-input-field)
+-  [Mask Text Field](https://github.com/ognjenst/cxjs-widget-mask-field)
 
 ## License
 

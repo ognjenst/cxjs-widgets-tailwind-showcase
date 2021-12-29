@@ -5,6 +5,7 @@ import { CheckerLayout } from '../layout/CheckerLayout';
 import { SandboxedRoute } from '../components/SandboxedRoute';
 import { PageNotImplemented } from '../components/PageNotImplemented';
 import MaskField from './mask-field';
+import Froala from "./froala"
 
 export default () => (
    <cx>
@@ -18,6 +19,10 @@ export default () => (
 
             <Route route="~/mask-field" url-bind="url" prefix>
                <MaskField />
+            </Route>
+
+            <Route route="~/froala" url-bind="url" prefix>
+               <Froala />
             </Route>
 
             <Route route="~/markdown" url-bind="url" prefix>

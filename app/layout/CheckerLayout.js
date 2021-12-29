@@ -148,6 +148,7 @@ export const CheckerLayout = ({ children, nav }) => (
             <NavItem text="Welcome" icon="home" href="~/welcome" />
             <div class="px-6 py-3 pt-6 text-gray-400 text-sm">Text components</div>
             <NavItem text="Mask Input Field" icon="pencil" href="~/mask-field" />
+            <NavItem text="Froala" icon="pencil" href="~/froala" />
             <NavItem text="Markdown" icon="hashtag" href="~/markdown" />
             <NavItem text="Codemirror" icon="code" href="~/codemirror" />
          </div>

@@ -2598,6 +2598,14 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+create-react-class@^15.5.2:
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  integrity sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 cross-spawn@6.0.5, cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -3621,6 +3629,11 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+
+froala-editor@4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/froala-editor/-/froala-editor-4.0.8.tgz#6fc435c99a0b6a9b7be7e3c91f5df49fbb7c4cbd"
+  integrity sha512-zoRAWnwvzWZ3vuXDv64lO6r4Gbn4fqKLZyBj9Cwl+9pONpDP9eaftxjxuY5ohahLM2zha/S4aqfDvT7Ecte7Lg==
 
 fs-extra@^10.0.0:
   version "10.0.0"
@@ -4852,7 +4865,7 @@ loglevel@^1.6.8:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha512-Hesni4s5UkWkwCGJMQGAh71PaLUmKFM60dHvq0zi/vDhhrzuk+4GgNbTXJ12YYQJn6ZKBDNIjYcuQGKudvqrIw==
 
-loose-envify@^1.0.0, loose-envify@^1.1.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -6285,6 +6298,14 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-froala-wysiwyg@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/react-froala-wysiwyg/-/react-froala-wysiwyg-4.0.8.tgz#cf8ad373aa32382085e0b09b7f3ebd0393094985"
+  integrity sha512-uiYcq3QC7CaJLlMgCsa1mtLBnvsnpMnLdt7DRGObVGiECy9qcnfA1prcU9wsNXX5D0wyKSAbpXMWMgXNSyvMqw==
+  dependencies:
+    create-react-class "^15.5.2"
+    froala-editor "4.0.8"
 
 react-input-mask@2.0.4, react-input-mask@^2.0.4:
   version "2.0.4"
